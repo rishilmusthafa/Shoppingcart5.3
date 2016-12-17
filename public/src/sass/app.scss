@@ -1,0 +1,67 @@
+$mainbgColor : #fafaf9;
+$SecondbgColor : #e3cda8;
+$mainFontColor : #a25644;
+$SecondFontColor : #7f7f7f;
+
+
+body {
+  background-color: $mainbgColor;
+  color: $mainFontColor;
+}
+.logoimg {
+  width: 150px;
+}
+
+.thumbnail {
+  background-color: $SecondbgColor;
+  img {
+    max-height: 150px;
+  }
+  .description {
+    color: $SecondFontColor;
+  }
+  .caption {
+    color: $mainFontColor;
+  }
+}
+.jumbotron {
+  background-color: $SecondbgColor;
+}
+.navbgcolor {
+  background-color: $SecondbgColor;
+  border-color: $SecondbgColor + 100;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+footer {
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+
+.btn-custom {
+  background-color: $mainFontColor;
+  border-color: darken($mainFontColor,15%);
+  color: $mainbgColor;
+  &:hover {
+    background-color: lighten($mainFontColor,5%);
+    border-color: darken($mainFontColor,15%);
+  }
+  &:focus {
+    background-color: lighten($mainFontColor,5%);
+    border-color: darken($mainFontColor,15%);
+  }
+  .active {
+    background-color: lighten($mainFontColor,5%);
+    border-color: darken($mainFontColor,15%);
+  }
+  .focus {
+    background-color: lighten($mainFontColor,5%);
+    border-color: darken($mainFontColor,15%);
+  }
+}

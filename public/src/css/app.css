@@ -1,0 +1,86 @@
+/* line 7, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+body {
+  background-color: #fafaf9;
+  color: #a25644;
+}
+
+/* line 11, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.logoimg {
+  width: 150px;
+}
+
+/* line 15, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.thumbnail {
+  background-color: #e3cda8;
+}
+
+/* line 17, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.thumbnail img {
+  max-height: 150px;
+}
+
+/* line 20, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.thumbnail .description {
+  color: #7f7f7f;
+}
+
+/* line 23, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.thumbnail .caption {
+  color: #a25644;
+}
+
+/* line 27, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.jumbotron {
+  background-color: #e3cda8;
+}
+
+/* line 30, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.navbgcolor {
+  background-color: #e3cda8;
+  border-color: white;
+}
+
+/* line 35, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 42, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+footer {
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+
+/* line 47, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.btn-custom {
+  background-color: #a25644;
+  border-color: #6c392d;
+  color: #fafaf9;
+}
+
+/* line 51, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.btn-custom:hover {
+  background-color: #b4604c;
+  border-color: #6c392d;
+}
+
+/* line 55, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.btn-custom:focus {
+  background-color: #b4604c;
+  border-color: #6c392d;
+}
+
+/* line 59, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.btn-custom .active {
+  background-color: #b4604c;
+  border-color: #6c392d;
+}
+
+/* line 63, C:/xampp/htdocs/learning/laravel/public/src/sass/app.scss */
+.btn-custom .focus {
+  background-color: #b4604c;
+  border-color: #6c392d;
+}
+
+/*# sourceMappingURL=../css/app.map */
